@@ -1,0 +1,24 @@
+{
+  "name": "eltern-geschenk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss styles.css -o src/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.2",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7",
+    "express": "^4.15.2",
+    "ejs": "^3.1.5"
+  },
+  "engines": {
+    "node": "16.8.0"
+  }
+}
