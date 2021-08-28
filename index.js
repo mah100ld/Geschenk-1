@@ -1,6 +1,6 @@
 // const express = require('express')
 // const path = require('path')
-// const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000
 // const app = express()
 
 // express()
@@ -34,4 +34,4 @@
     res.render(path.join(__dirname, 'views', 'index.html'));
   });
   
-  app.listen(5000);
+  app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
